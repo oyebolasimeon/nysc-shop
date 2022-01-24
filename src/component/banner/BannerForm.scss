@@ -1,0 +1,39 @@
+.form-input{
+    margin-top: 5vh;
+    width: 40%;
+    min-height: 5vh;
+    border: 2px dashed green;
+    border-style: dashed;
+    border-radius: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(230, 224, 224);
+    
+
+}
+
+form{
+ 
+    button{
+
+        &:hover{
+            cursor: pointer;
+            color: green;
+        }
+
+        margin-left: 5vh;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .form-input{
+        width: 90%;
+    }
+    form{
+        flex-direction: column;
+        button{
+            margin-top: 4vh;
+        }
+    }
+}

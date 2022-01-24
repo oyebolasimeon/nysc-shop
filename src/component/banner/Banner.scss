@@ -1,0 +1,79 @@
+.banner{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 70vh;
+  /* align-items: center; */
+    background-image: url(../../assets/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-color: black; */
+    margin-top: 2vh;
+    /* flex-direction: column; */
+
+            .opac-banner{
+                width: 100%;
+                margin: auto;
+                min-height: 70vh;
+                /* align-items: center; */
+                background-color: #237E59;
+                
+                opacity: .7;
+
+                .banner-content{
+                    margin: auto;
+                    margin-top: 10vh;
+                    height: 50vh;
+                    background-color: black;
+                    color: #fff;text-align: center;
+
+                    h2{
+                        font-size: 80px;
+                        padding-top: 5vh;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+
+                    p{
+                        font-size: 15px;
+                        padding-top: 2vh;
+                        font-family: 'Courier New', Courier, monospace;
+                        
+                        
+                    }
+
+                   
+                }
+                
+                
+            }
+  }
+
+
+
+
+  
+  @media screen and (max-width: 700px) {
+    // .banner-content {
+    //     h2{
+    //         font-size: 20px;
+    //         padding-top: 0;
+    //     }
+        
+    // }
+
+    .banner{
+        // min-height: 80vh;
+        .opac-banner{
+            // min-height: 83vh;
+            .banner-content{
+                h2{
+                    font-size: 50px;
+                    padding-top: 0;
+
+                }
+            }
+        }
+    }
+}
+  

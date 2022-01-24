@@ -1,0 +1,22 @@
+.nav{
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+
+   
+  }
+
+  ul{
+    display: flex;
+  }
+  
+  li{
+    list-style: none;
+    flex: 1;
+    padding: auto;
+
+    &:hover{
+        color: green;
+    }
+    
+  }

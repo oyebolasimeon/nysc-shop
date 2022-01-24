@@ -1,0 +1,28 @@
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 7vh;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 2vh;
+}
+
+.logo{
+    flex: 1;
+    text-transform:uppercase;
+    line-height: 2vh;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-family:sans-serif;
+    
+  }
+  
+  .logo-text-1{
+    color: #0A100B;
+  }
+  .logo-text-2{
+    color: #557666;
+  }
