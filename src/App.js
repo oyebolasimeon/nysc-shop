@@ -1,7 +1,10 @@
 import './App.css';
 import Header from './component/header/Header'
-import { BrowserRouter, Switch} from 'react-router-dom'
+import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import Banner from './component/banner/Banner'
+import Package from './component/package/Package';
+import BasicPackage from './component/packageList/BasicPackage';
+import Premium from './component/packageList/Premium';
 
 function App() {
   return (
@@ -15,10 +18,25 @@ function App() {
 
         <Switch>
 
-      {/* <Route exact path="/" component ="{}"></Route>         */}
+            <Route exact path="/packages" component={Package} />   
 
-          
-        </Switch>      
+
+        </Switch> 
+
+        <Switch>
+
+          <Route exact path="/basic-packages" component={BasicPackage} />
+
+        </Switch>
+
+        <Switch>
+
+          <Route exact path="/premium-packages" component={Premium} />
+
+        </Switch>
+
+      
+    
        
 
       </div>

@@ -15,7 +15,7 @@ const banner = () => {
                 <h2>{bannerText}</h2>
                 <p>{bannerContent}</p>
 
-                <BannerForm title="Enter Delivery Address" />
+                <BannerForm title="We Deliver Nationwide and Provide Quality materials at Affordable Rate" />
             </div>
         </div>
         </section>

@@ -1,0 +1,106 @@
+.banners{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+    
+  /* align-items: center; */
+    // background-color: rgb(73, 66, 66);
+    // background-size: cover;
+    // // opacity: .3;
+    // background-repeat: no-repeat;
+    
+    /* background-color: black; */
+    margin-top: 3vh;
+
+   
+
+    .card1{
+      flex: 1;
+       background-color: #F7F7F7;
+       width: 90%;
+      //  background-image: url(../../assets/banner.jpeg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       box-shadow: inset 4px 4px #237E59;
+       border: none;
+       border-radius: 10px 10px;
+       margin-right: 3vh;
+
+       h3{
+         text-align: center;
+         padding-top: 5vh;
+         font-family: sans-serif;
+         font-size: 22px;
+         text-transform: uppercase;
+       }
+
+       .imgBox{
+       background-image: url(../../assets/cart.JPG);
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: auto;
+       margin-top: 2vh;
+       width: 70%;
+       min-height: 30vh;
+       }
+
+       .imgBox1{
+        background-image: url(../../assets/box.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-top: 2vh;
+        width: 70%;
+        min-height: 30vh;
+        }
+
+        .imgBox2{
+          background-image: url(../../assets/delivery.JPG);
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin: auto;
+          margin-top: 2vh;
+          width: 70%;
+          min-height: 30vh;
+          }
+   }
+
+   .card2{
+    flex: 1;
+     background-color: black;
+     width: 90%;
+ }
+
+
+
+        
+}
+
+@media screen and (max-width: 700px) {
+     
+  .banners{
+    flex-direction: column;
+    min-height: 70vh;
+
+    .card1{
+      margin: 2vh;
+
+      .imgBox{
+        margin-top: 6vh;
+      }
+      .imgBox1{
+        margin-top: 6vh;
+      }
+      .imgBox2{
+        margin-top: 6vh;
+      }
+
+      h3{
+        padding-top: 2vh;
+        padding-bottom: 3vh;
+      }
+    }
+  }
+
+}

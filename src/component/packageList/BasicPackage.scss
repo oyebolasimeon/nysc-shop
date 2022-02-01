@@ -1,0 +1,24 @@
+.basicList{
+    text-align: center;
+    flex: 1;
+
+    h3{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 400;
+
+    }
+
+    .listitem{
+        margin-top: 5vh;
+        font-size: 20px;
+        display: block;
+        box-shadow: 4px 4px #237E59;
+       border: none;
+       border-radius: 10px 10px;
+    }
+
+    li{
+        margin-top: 4vh;
+    }
+}

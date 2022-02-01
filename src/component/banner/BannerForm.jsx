@@ -1,6 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './BannerForm.scss'
+
+
 const BannerForm = ({title}) => {
+
+    const linkStyle = { 
+        textDecoration: "none", 
+        flex: "1", 
+        color: "black"
+     }
+
+     
 const btnStyle = {
         background: "black",
         color: "#fff",
@@ -13,7 +24,12 @@ const btnStyle = {
     }
     return (
         <form>
-            <input className="form-input" placeholder={title} /> <button style = {btnStyle} >Send</button>
+            <input className="form-input" placeholder={title} readOnly/> 
+            
+            <Link style={linkStyle} to="/packages"> 
+            <button style = {btnStyle} >Our Packages</button>
+            </Link> 
+            
         </form>
     )
 
